@@ -42,7 +42,7 @@ const Home = () => {
                 "Loading users..."
               ) : (
                 <>
-                  {users.length > 0 ? (
+                  {users && users.length > 0 ? (
                     <>
                       {
                         users.map((user, index) => {
