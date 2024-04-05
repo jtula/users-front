@@ -51,7 +51,7 @@ const Edit = () => {
             <form onSubmit={handleUpdate}>
               <div className="space-y-2">
                 <input type="text" value={user.name} onChange={(e) => setUser({...user, name: e.target.value})}  className="w-full block border p-3 text-gray-600 rounded focus:outline-none focus:shadow-outline focus:border-blue-200 placeholder-gray-400" placeholder="username" />
-                <input type="email" value={user.email} onChange={(e) => setUser({...user, quantity: e.target.value})}  className="w-full block border p-3 text-gray-600 rounded focus:outline-none focus:shadow-outline focus:border-blue-200 placeholder-gray-400" placeholder="email" />
+                <input type="email" value={user.email} onChange={(e) => setUser({...user, email: e.target.value})}  className="w-full block border p-3 text-gray-600 rounded focus:outline-none focus:shadow-outline focus:border-blue-200 placeholder-gray-400" placeholder="email" />
                 <div>
                     { !isLoading && ( <button className="w-full mt-6 bg-blue-600 text-white rounded-md px-4 py-2 font-bold hover:bg-blue-700 hover:cursor-pointer">Update</button>)}         
                 </div>

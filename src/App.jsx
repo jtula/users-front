@@ -11,7 +11,7 @@ function App() {
     <div>
       <nav className="bg-slate-900 h-14">
         <div className="container mx-auto p-2 relative">
-          <Link to="/"><h2 className="absolute right-0 text-white text-2xl font-bold">Home</h2></Link>
+          <Link to="/"><h2 className="absolute right-0 pr-4 text-white text-2xl font-bold">Home</h2></Link>
         </div>
       </nav>  
 
